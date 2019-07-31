@@ -29,8 +29,11 @@ function placeImage(x, y) {
 
   dragElement(img)
 
-
 }
+
+
+// document.onload = dragElement(document.getElementById("static-img-1"));
+
 
 
 
