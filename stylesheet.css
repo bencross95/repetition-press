@@ -59,15 +59,16 @@ img {
 
 h2 {
 
-  font-family: Nimbus Sans Cond L;
+  font-family: nimbus-sans-condensed, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 42px;
   line-height: 54px;
   /* or 129% */
   color: #272727;
 
 }
+
 
 
 .main-text {
@@ -103,9 +104,25 @@ h2 {
 }
 
 
+.left-bar {
+  padding-bottom: 0px;
+}
+
+
+
+
+
 @media only screen and (max-width: 1105px) {
   body {
-    /* background-color: lime; */
+    /* background-color: grey; */
+    width: ;
+    height: ;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .grid-container {
@@ -132,10 +149,15 @@ h2 {
   }
 
   h2 {
-    font-family: Nimbus Sans Cond L;
+    font-family: nimbus-sans-condensed, sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 31px;
   }
+
+  .left-bar {
+    padding-bottom: 100px;
+  }
+
 }

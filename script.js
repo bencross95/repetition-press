@@ -36,22 +36,26 @@ function placeImage(x, y) {
 
 
 document.addEventListener("click", function(event) {
-  if (justDragged == false) {
-    event.preventDefault()
-    placeImage(event.pageX, event.pageY)
+  if (window.innerWidth > 900) {
+    if (justDragged == false) {
+      event.preventDefault()
+      placeImage(event.pageX, event.pageY)
+    }
+    justDragged = false;
   }
-  justDragged = false;
 })
 
 
 
 
 document.addEventListener("touchend", function(event) {
+    if (window.innerWidth > 900) {
     if (justDragged == false) {
       event.preventDefault()
       placeImage(event.pageX, event.pageY)
     }
   justDragged = false;
+}
 })
 
 
