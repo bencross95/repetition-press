@@ -1,5 +1,5 @@
 const images = [
-  "images/zine-img-5.png", "images/zine-img-5.png"
+  "images/zine-img-1.png", "images/zine-img-2.png", "images/zine-img-4.png"
 ]
 
 let i = 0;
