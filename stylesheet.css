@@ -3,6 +3,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
 
 html {
   cursor: crosshair;
+  /* cursor: url('/images/favicon.png'); */
 }
 
 
