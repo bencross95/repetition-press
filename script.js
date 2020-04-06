@@ -1,6 +1,10 @@
 const images = [
-  "images/zine-img-1.png", "images/zine-img-2.png", "images/zine-img-4.png"
+  "images/zine-img-1.png"
 ]
+
+// const images = [
+//   "images/zine-img-1.png", "images/zine-img-2.png", "images/zine-img-4.png"
+// ]
 
 let i = 0;
 let justDragged = false;
