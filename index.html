@@ -2,59 +2,80 @@
 <html lang="en" dir="ltr">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135026058-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135026058-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-135026058-2');
-</script>
+      gtag('config', 'UA-135026058-2');
+    </script>
+    <script src="libraries/p5.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Repetition Press</title>
-    <meta name="description" content="bi-yearly music & design zine">
+    <meta name="description" content="Radio show & zine">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://use.typekit.net/glt4jbl.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   </head>
+<body>
 
-  <body>
-    <section class="main-section margins">
-      <div class="grid-container">
-        <div class="area-1 left-bar">
-          <p class="info-text">issue <b>01</b></p>
-          <p class="info-text">release <b>01</b></p>
-          <img src="images/zine-img.png" alt="" class="norm-img" id="static-img-1">
-          <!-- <p class="info-text gbp">GBP <b>12</b></p> -->
-          <p class="info-text gbp">dropping when it's ready</p>
-        </div>
+  <div id='header'></div>
 
-        <div class="area-2 right-section">
-          <h2>
-            repetition press presents issue one
-            <br>
-            <br>
-            “atonal”
-            <br>
-            printing presses and techno share a lot, repeating mechanical like patterns, a fascination with breaking boundaries, beauty in industrialisation. 
-            <br>
-            this is an opportunity to make a connection.
-            <!-- <br>
-            <br>
-            interviewing artists & designers including
-            <span class="blocked-text">
-              <img class="blocked-text-img top-block" src="images/blockedOut1.svg" alt=""></img>
-              <img class="blocked-text-img last-block" src="images/blockedOut4.svg" alt=""></img>
-            </span>
 
-          <img class="blocked-text-img middle-block" src="images/blockedOut2.svg" alt=""></img>
-          <img class="blocked-text-img end-block" src="images/blockedOut3.svg" alt=""></img> -->
-          </h2>
-        </div>
 
-      </div>
-    </section>
-  </body>
-  <script type="text/javascript" src="script.js"></script>
+  <section class="flex items-start pa5">
+    <div class="outline w-33 pa3 mr2">
+      <article class="pr4 pt5">
+        <img src="images/covers/cover01.png" alt="">
+        <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/784101637%3Fsecret_token%3Ds-1zC5xgT2AX4&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+        <p class="measure lh-copy">
+First Crimes – Unreleased<br>
+Jennifer Walton – WHITE NURSE<br>
+DJ Loser – THERE IS NO SUCH THING AS SELFLESSNESS<br>
+Zoë Mc Pherson – Kada (poly-everything)<br>
+Tommy Four Seven—Feed<br>
+Overlook – Travelling Without Moving<br>
+Homemade Weapons – Conduit<br>
+BOREAL MASSIF – We All Have An Impact<br>
+First Crimes – Unreleased<br>
+Szare – Translocated<br>
+Ital Tek – Deadhead<br>
+Wisecrack – Flesh<br>
+The Friend – Softly The Camera<br>
+Fuck Buttons – Olympians<br>
+        </p>
+      </article>
+    </div>
+    <div class="outline w-33 pa3 mr2">
+      <p class= "measure lh-copy pt3">
+        Episode 1<br>
+        This episode explores a selection of noise and leftfield techno that I’ve been listening to this month alongside some cheeky unreleased demo’s.
+      </p>
+    </div>
+    <div class="outline w-33 pa3 mr2">
+      <code>3</code>
+    </div>
+  </section>
+
+<section>
+  <div class="pa5">
+    <p class="measure lh-copy">Archive</p>
+    <p class="measure lh-copy"><a href="">March mixtape</a></p>
+    <p class="measure lh-copy"><a href="">February mixtape</a></p>
+    <p class="measure lh-copy"><a href="">January mixtape</a></p>
+    <p class="measure lh-copy"><a href="">December mixtape</a></p>
+    <p class="measure lh-copy"><a href="">November mixtape</a></p>
+    <p class="measure lh-copy"><a href="">October mixtape</a></p>
+    <p class="measure lh-copy"><a href="">September mixtape</a></p>
+    <p class="measure lh-copy"><a href="">August mixtape</a></p>
+  </div>
+</section>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
 </html>
