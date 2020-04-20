@@ -1,5 +1,5 @@
 // function setup() {
-//   let myCanvas = createCanvas(1440, 900);
+//   let myCanvas = createCanvas(300, 300);
 //   myCanvas.parent('header');
 // }
 //
