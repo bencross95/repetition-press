@@ -5,13 +5,25 @@ function setup() {
   myCanvas.parent('header');
 }
 
-function draw() {
+let pos = 200;
 
-  // background(205, 105, 9);
+function draw() {
+  background(255, 255, 255);
+
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
-  ellipsoid(200, 200, 40, 12);
+  ellipsoid(200, pos, 40, 12);
 
+
+
+
+  function mouseWheel(event) {
+    print(event.delta);
+    //move the square according to the vertical scroll amount
+    pos += event.delta;
+    //uncomment to block page scrolling
+    //return false;
+  }
 
   // let c = color(255, 204, 0);
   // let white = color(255, 255, 255, 0);

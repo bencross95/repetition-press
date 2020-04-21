@@ -22,14 +22,19 @@ body{
 
 }
 
+a {
+  /* cursor: ne-resize; */
+  text-decoration: none;
+}
 
 p {
-
 }
+
 
 .p-condensed {
     font-family: 'Authentic Condensed 90';
 }
+
 
 .header {
   width: 100vw;
@@ -37,6 +42,7 @@ p {
 }
 
 #header {
+  /* position: absolute; */
   position: fixed;
   z-index: -1;
   padding: 0;
