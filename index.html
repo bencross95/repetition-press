@@ -2,59 +2,99 @@
 <html lang="en" dir="ltr">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135026058-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135026058-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-135026058-2');
-</script>
+      gtag('config', 'UA-135026058-2');
+    </script>
+    <script src="libraries/p5.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Repetition Press</title>
-    <meta name="description" content="bi-yearly music & design zine">
+    <meta name="description" content="Radio show & zine">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://use.typekit.net/glt4jbl.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   </head>
+<body>
 
-  <body>
-    <section class="main-section margins">
-      <div class="grid-container">
-        <div class="area-1 left-bar">
-          <p class="info-text">issue <b>01</b></p>
-          <p class="info-text">release <b>01</b></p>
-          <img src="images/zine-img.png" alt="" class="norm-img" id="static-img-1">
-          <!-- <p class="info-text gbp">GBP <b>12</b></p> -->
-          <p class="info-text gbp">dropping when it's ready</p>
+<div id='header'></div>
+
+<section class="header pa5">
+    <div id='header'></div>
+
+    <div class="flex-l pt7">
+      <div class="w-40-l order-1-l pa3-l mr2-l"><p class="measure lh-copy pt3">REPETITION PRESS<p></div>
+      <div class="w-40-l order-0-l pa3-l mr2-l"></div>
+    </div>
+</section>
+
+
+
+
+
+
+<section>
+<div class="flex-l pt6 pl5 pr5">
+  <div class="w-40-l order-1-l pr3-l pl3-l mr2-l"><p class="measure lh-copy">Episode 1<p></div>
+  <div class="w-40-l order-0-l pr3-l pl3-l mr2-l"></div>
+</div>
+  <div class="flex-l items-start pl5 pr5">
+    <div class="w-40-l pr3-l pl3-l mr2-l order-1-l">
+      <p class="measure-narrow lh-copy">This episode explores a selection of noise and leftfield techno that I’ve been listening to this month alongside some cheeky unreleased demo’s.</p>
+      <p class="measure-narrow lh-copy">With love from First Crimes & friends.</p>
+    </div>
+    <div class="w-40-l pa3-l mr2-l order-0-l pt4">
+      <article class="mw6">
+        <img src="images/covers/cover01.png" alt="">
+        <div class="bg-light-gray mt3 soundcloud-frame">
+          <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/819898078&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
         </div>
+        <p class="measure lh-copy p-condensed pt4">
+        First Crimes – Unreleased<br>
+        Jennifer Walton – WHITENURSE<br>
+        DJ Loser – There is Not Such Thing as Selflessness<br>
+        Zoë Mc Pherson – Kada (poly-everything)<br>
+        Tommy Four Seven—Feed<br>
+        Overlook – Travelling Without Moving<br>
+        Homemade Weapons – Conduit<br>
+        Boreal Massif – We All Have An Impact<br>
+        First Crimes – Unreleased<br>
+        Szare – Translocated<br>
+        Ital Tek – Deadhead<br>
+        Wisecrack – Flesh<br>
+        The Friend – Softly The Camera<br>
+        Fuck Buttons – Olympians<br>
+        </p>
+      </article>
+    </div>
+  </div>
+  </section>
 
-        <div class="area-2 right-section">
-          <h2>
-            repetition press presents issue one
-            <br>
-            <br>
-            “atonal”
-            <br>
-            printing presses and techno share a lot, repeating mechanical like patterns, a fascination with breaking boundaries, beauty in industrialisation. 
-            <br>
-            this is an opportunity to make a connection.
-            <!-- <br>
-            <br>
-            interviewing artists & designers including
-            <span class="blocked-text">
-              <img class="blocked-text-img top-block" src="images/blockedOut1.svg" alt=""></img>
-              <img class="blocked-text-img last-block" src="images/blockedOut4.svg" alt=""></img>
-            </span>
 
-          <img class="blocked-text-img middle-block" src="images/blockedOut2.svg" alt=""></img>
-          <img class="blocked-text-img end-block" src="images/blockedOut3.svg" alt=""></img> -->
-          </h2>
-        </div>
 
-      </div>
-    </section>
-  </body>
-  <script type="text/javascript" src="script.js"></script>
+<section class="pa3-l">
+  <div class="pa5 measure">
+    <p class="lh-copy">Archive</p>
+    <p class="lh-copy pt4 ">2020</p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/march-mixtape/s-1zC5xgT2AX4?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">March</a></p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/february-mixtape/s-LYAJl4shUwC?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">February</a></p>
+    <p class="lh-copy pb2"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/january-mixtape/s-1h7oZPIVRkx?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">January</a></p>
+    <p class="lh-copy pt4">2019</p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/december-mixtape/s-eNpv0cWeM2Q?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">December</a></p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/november-mixtape/s-4GG1uy6oNxb?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">November</a></p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/october-mixtape/s-dDaGfvzi2ed?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">October</a></p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/september-mixtape/s-oDpwixnNYPX?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">September</a></p>
+    <p class="lh-copy"><a class="hover-bg-light-blue black" href="https://soundcloud.com/firstcrimes/august-mix/s-2tierPwrGGP?in=firstcrimes/sets/mixtapes/s-Y7ZynAsX0TB" target="_blank">August</a></p>
+  </div>
+</section>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
 </html>
