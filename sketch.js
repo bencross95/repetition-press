@@ -47,8 +47,8 @@ function windowResized() {
 
 function mouseWheel(event) {
 
-  console.log(y);
-  y += window.scrollY;
+  // console.log(y);
+  // y += window.scrollY;
 
 
 }

@@ -28,7 +28,16 @@ a {
 }
 
 p {
+  font-size: 16px;
+  font-weight: normal;
 }
+
+
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 
 
 .lh-copy {
@@ -36,15 +45,16 @@ p {
 }
 
 
-.p-condensed {
+.type-condensed {
     font-family: 'Authentic Condensed 90';
 }
 
 
-.header {
+/* .header {
   width: 100vw;
   height: 100vh;
-}
+} */
+
 
 #header {
   /* position: absolute; */
