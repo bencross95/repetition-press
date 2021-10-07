@@ -54,24 +54,6 @@ h1 {
 }
 
 
-/* .header {
-  width: 100vw;
-  height: 100vh;
-} */
-
-
-#header {
-  /* position: absolute; */
-  position: fixed;
-  z-index: -1;
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  height: 100vh
-  overflow: hidden;
-}
-
-
 
 .soundcloud-frame {
   padding-top: 10px;
