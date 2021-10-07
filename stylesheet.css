@@ -1,7 +1,7 @@
 body{
   padding:0;
   margin:0;
-  font-family: 'Authentic 90', -apple-system, BlinkMacSystemFont,
+  font-family: 'texgyreheroscn regular', -apple-system, BlinkMacSystemFont,
              'avenir next', avenir,
              helvetica, 'helvetica neue',
              ubuntu,
@@ -11,14 +11,14 @@ body{
 }
 
 @font-face {
-  font-family: 'Authentic 90';
-  src:  url('fonts/AUTHENTICSans-90.woff2') format('woff2');
+  font-family: 'texgyreheroscn bold';
+  src:  url('fonts/texgyreheroscn-bold.woff2') format('woff2');
 
 }
 
 @font-face {
-  font-family: 'Authentic Condensed 90';
-  src:  url('fonts/AUTHENTICSans-Condensed-90.woff2') format('woff2');
+  font-family: 'texgyreheroscn regular';
+  src:  url('fonts/texgyreheroscn-regular.woff2') format('woff2');
 
 }
 
@@ -30,12 +30,16 @@ a {
 p {
   font-size: 16px;
   font-weight: normal;
+  line-height: 20px;
+  font-family: 'texgyreheroscn regular';
+  margin: 0;
 }
 
 
 h1 {
   font-size: 16px;
-  font-weight: normal;
+  font-family: 'texgyreheroscn bold';
+  margin: 0;
 }
 
 
@@ -46,7 +50,7 @@ h1 {
 
 
 .type-condensed {
-    font-family: 'Authentic Condensed 90';
+    font-family: 'texgyreheroscn regular';
 }
 
 
