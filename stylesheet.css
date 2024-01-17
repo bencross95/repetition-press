@@ -1,68 +1,56 @@
-body{
-  padding:0;
-  margin:0;
+body {
+  padding: 0;
+  margin: 0;
   font-family: 'texgyreheroscn regular', -apple-system, BlinkMacSystemFont,
-             'avenir next', avenir,
-             helvetica, 'helvetica neue',
-             ubuntu,
-             roboto, noto,
-             'segoe ui', arial,
-             sans-serif;
+    'avenir next', avenir,
+    helvetica, 'helvetica neue',
+    ubuntu,
+    roboto, noto,
+    'segoe ui', arial,
+    sans-serif;
+    background-color: #EEEEEE
 }
 
 @font-face {
   font-family: 'texgyreheroscn bold';
-  src:  url('fonts/texgyreheroscn-bold.woff2') format('woff2');
+  src: url('fonts/texgyreheroscn-bold.woff2') format('woff2');
 
 }
 
 @font-face {
   font-family: 'texgyreheroscn regular';
-  src:  url('fonts/texgyreheroscn-regular.woff2') format('woff2');
+  src: url('fonts/texgyreheroscn-regular.woff2') format('woff2');
 
 }
 
-a {
-  /* cursor: ne-resize; */
-  text-decoration: none;
-}
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 20px;
-  font-family: 'texgyreheroscn regular';
+  font-family: serif;
   margin: 0;
 }
 
 
 h1 {
-  font-size: 16px;
-  font-family: 'texgyreheroscn bold';
+  font-size: 18px;
+  font-weight: normal;
+  font-family: serif;
   margin: 0;
 }
 
 
-
-.lh-copy {
-  line-height:1.4;
+.bottom-pattern {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 4px;
+  background-image: url("images/yellow-pattern@2x.png");
 }
 
-
-.type-condensed {
-    font-family: 'texgyreheroscn regular';
-}
-
-
-
-.soundcloud-frame {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-}
-
-
-.mw6  {
-  max-width: 20rem;
+.illustration-1 {
+  width: 200px;
+  mix-blend-mode: darken;
+  
 }
