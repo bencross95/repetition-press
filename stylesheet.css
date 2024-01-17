@@ -28,8 +28,8 @@ p {
   font-size: 18px;
   font-weight: normal;
   line-height: 20px;
-  font-family: garamond,
-               serif;
+  font-family: baskerville, garamond,
+    serif;
   margin: 0;
 }
 
@@ -37,13 +37,14 @@ p {
 h1 {
   font-size: 18px;
   font-weight: normal;
-  font-family: garamond,
-               serif;
+  font-family: baskerville, garamond,
+    serif;
   margin: 0;
 }
 
 
 .bottom-pattern {
+  display: none;
   position: fixed;
   top: 0px;
   width: 200%;
