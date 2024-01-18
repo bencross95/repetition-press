@@ -12,14 +12,14 @@ body {
 }
 
 @font-face {
-  font-family: 'texgyreheroscn bold';
-  src: url('fonts/texgyreheroscn-bold.woff2') format('woff2');
+  font-family: 'Baskervville Regular';
+  src: url('fonts/Baskervville-Regular.woff2') format('woff2');
 
 }
 
 @font-face {
-  font-family: 'texgyreheroscn regular';
-  src: url('fonts/texgyreheroscn-regular.woff2') format('woff2');
+  font-family: 'Baskervville Italic';
+  src: url('fonts/Baskervville-Italic.woff2') format('woff2');
 
 }
 
@@ -28,7 +28,7 @@ p {
   font-size: 18px;
   font-weight: normal;
   line-height: 20px;
-  font-family: baskerville, garamond,
+  font-family: Baskervville Regular, garamond,
     serif;
   margin: 0;
 }
@@ -37,7 +37,7 @@ p {
 h1 {
   font-size: 18px;
   font-weight: normal;
-  font-family: baskerville, garamond,
+  font-family: Baskervville Italic, garamond,
     serif;
   margin: 0;
 }
