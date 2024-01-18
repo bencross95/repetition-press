@@ -40,6 +40,7 @@ h1 {
   font-family: Baskervville Italic, garamond,
     serif;
   margin: 0;
+  
 }
 
 
@@ -56,4 +57,11 @@ h1 {
 .illustration-1 {
   width: 200px;
   mix-blend-mode: darken;
+}
+
+.small-caps {
+  font-family: Baskervville Regular, garamond,
+  serif;
+  font-variant: small-caps;
+  letter-spacing: 1.5px;
 }
