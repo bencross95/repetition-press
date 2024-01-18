@@ -65,3 +65,12 @@ h1 {
   font-variant: small-caps;
   letter-spacing: 1.5px;
 }
+
+.footer-text {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  font-family: Baskervville Italic, garamond,
+    serif;
+  margin: 0;
+}
