@@ -44,12 +44,13 @@ h1 {
 
 
 .bottom-pattern {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0px;
   width: 200%;
   height: 2px;
   background-image: url("images/yellow-pattern@2x.png");
+  background-size: 90px;
 }
 
 .illustration-1 {
