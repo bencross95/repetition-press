@@ -8,7 +8,8 @@ body {
     roboto, noto,
     'segoe ui', arial,
     sans-serif;
-    background-color: #7c7c7c;
+    /* background-color: #7c7c7c; */
+    background-color: #000000;
 }
 
 @font-face {
@@ -46,7 +47,7 @@ h1 {
 
 .illustration-1 {
   width: 160px;
-  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
 }
 
 .small-caps {
