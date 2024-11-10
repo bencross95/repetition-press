@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'texgyreheroscn regular', -apple-system, BlinkMacSystemFont,
+    'avenir next', avenir,
+    helvetica, 'helvetica neue',
+    ubuntu,
+    roboto, noto,
+    'segoe ui', arial,
+    sans-serif;
+    background-color: #EEEEEE;
+}
+
+@font-face {
+  font-family: 'Baskervville Regular';
+  src: url('assets/fonts/Baskervville-Regular.woff2') format('woff2');
+
+}
+
+@font-face {
+  font-family: 'Baskervville Italic';
+  src: url('assets/fonts/Baskervville-Italic.woff2') format('woff2');
+
+}
+
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 15px;
+  font-family: Baskervville Regular, garamond,
+    serif;
+  margin: 0;
+}
+
+
+h1 {
+  font-size: 18px !important;
+  font-weight: normal;
+  font-family: Baskervville Italic, garamond,
+    serif;
+  margin: 0px !important;
+  padding: 0px;
+}
+
+
+.illustration-1 {
+  width: 160px;
+  mix-blend-mode: multiply;
+}
+
+.small-caps {
+  font-family: Baskervville Regular, garamond,
+  serif;
+  font-variant: small-caps;
+  letter-spacing: 1.5px;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  font-family: Baskervville Italic, garamond,
+    serif;
+  margin: 0;
+}
