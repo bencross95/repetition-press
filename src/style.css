@@ -8,7 +8,7 @@ body {
     roboto, noto,
     'segoe ui', arial,
     sans-serif;
-    background-color: #EEEEEE;
+    background-color: #7c7c7c;
 }
 
 @font-face {
@@ -45,7 +45,7 @@ h1 {
 
 
 .illustration-1 {
-  width: 120px;
+  width: 160px;
   mix-blend-mode: multiply;
 }
 
@@ -63,4 +63,11 @@ h1 {
   font-family: Baskervville Italic, garamond,
     serif;
   margin: 0;
+}
+
+
+.email-link {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
 }
